@@ -1,0 +1,93 @@
+body {
+    background-color: #252525;
+}
+
+.centerLine {
+    background-color: #e9eff6;
+
+    display: block;
+    width: 60%;
+    height: 100%;
+    margin-top: -8px;
+
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.list {
+    background-color: #fff;
+
+    display: inline-block;
+    width: 80%;
+    height: 90%;
+
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    box-shadow: 5px 5px 10px 10px #d0d0d0;
+    overflow: auto;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+
+    margin: 15px;
+}
+
+.input {
+    display: inline-block;
+    width: 80%;
+
+    position: relative;
+    left: 45%;
+    transform: translate(-50%, 0);
+}
+
+#submit {
+    transform: translate(0, 60%);
+    float: right;
+    
+    font-size: 20px;
+}
+
+#toDoText {
+    margin: 15px;
+
+    font-size: 30px;
+    
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.todo {
+    display: inline-block;
+    width: 90%;
+    max-height: 100%;
+
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    border-top: 4px solid #323232;
+}
+
+.todo > ul {
+    font-size: 30px;
+    text-align: center;
+}
+
+.deleteBtn, .lockBtn {
+    font-size: 25px;
+
+    position: relative;
+    float: right;
+}
+
+.lock {
+    display: none;
+}
