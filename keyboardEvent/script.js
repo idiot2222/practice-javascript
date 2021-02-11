@@ -19,10 +19,14 @@ function handleKeyDown(e) {
     changeView();
 
     numberB.innerText = e.keyCode;
-    enterKey.innerText = e.key;
     eventLocation.innerText = e.location;
+    enterKey.innerText = e.key;
     eventWhich.innerText = e.keyCode;
     eventCode.innerText = e.code;
+
+    if(e.keyCode == 32) {
+        enterKey.innerText = "Space"; 
+    }
 
     console.log(e);
 }
